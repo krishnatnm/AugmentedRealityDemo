@@ -2,4 +2,6 @@
     <string name="app_name">AugmentedRealityDemo</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_camera_with_video">CameraWIthVideo</string>
+    <string name="title_activity_camera_with_gif">CameraWithGif</string>
+    <string name="title_activity_test">TestActivity</string>
 </resources>
