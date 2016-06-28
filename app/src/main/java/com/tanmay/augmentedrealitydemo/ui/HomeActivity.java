@@ -44,7 +44,7 @@ public class HomeActivity extends AppCompatActivity implements OnListItemClickLi
         itemList = new ArrayList<>();
         itemList.add("Video on Camera View");
         itemList.add("GIF on Camera View");
-        itemList.add("Test Activity");
+//        itemList.add("Test Activity");
 
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(this);
@@ -69,9 +69,9 @@ public class HomeActivity extends AppCompatActivity implements OnListItemClickLi
             case 1:
                 startActivity(new Intent(context, CameraWithGif.class));
                 break;
-            case 2:
-                startActivity(new Intent(context, TestActivity.class));
-                break;
+//            case 2:
+//                startActivity(new Intent(context, TestActivity.class));
+//                break;
             default:
                 Toast.makeText(context, "To be done!", Toast.LENGTH_SHORT).show();
         }
